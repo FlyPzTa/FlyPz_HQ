@@ -1,0 +1,61 @@
+# Secrets / credentials
+.env
+.env.*
+*.env
+sidekick_security.env
+*token*.json
+*credential*.json
+*secret*.json
+*auth*.json
+
+# Python/runtime
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Logs / runtime state
+logs/
+*.log
+*_state.json
+*_status.json
+*_heartbeat.json
+*_runtime.json
+*_session.json
+
+# Sidekick private data
+sidekick_data/
+sidekick_state_vault/
+sidekick_backups/
+security_backups/
+source_backups/
+sidekick_clip_buffer/
+sidekick_vosk_model/
+sidekick_viewer_guard100_backups/
+
+# Private media / local storage
+clips/
+VODs/
+recordings/
+downloads/
+music/
+sidekick_music/
+sidekick_sounds/
+
+# Project archives/checkpoints
+_archive/
+MASTER_*/
+MASTER_*/
+FINAL_CONSOLIDATION_*/
+PHASE3*/
+LIVE_PRE_*/
+UNIFICATION_*/
+VEYA_*/
+
+# Local development / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
